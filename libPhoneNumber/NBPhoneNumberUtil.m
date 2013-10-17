@@ -575,7 +575,6 @@ static NSMutableDictionary *regexPatternCache;
 {
     if (self.mapCN2CCode != nil)
     {
-        [self.mapCN2CCode removeAllObjects];
         self.mapCN2CCode = nil;
     }
 }
